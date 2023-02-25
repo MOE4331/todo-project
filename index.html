@@ -4,47 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" >
+    <link rel="stylesheet" href="./style/reset.css" >
+    <title>To Do List</title>
 </head>
 <body>
-    <h1>To Do List</h1>
-    <img src="./asset/todo.png" width="200px">
-    <header>
-        <nav>
-            <div class="topnav" >
-                <a class="active" href="#home">Home</a>
-                <a href="./about.html">About</a>
-                <a href="">Useraname</a>
-                <a href="./index.html">Logout</a>
-              </div>
-        </nav>
-    </header>
+    <nav>
+        <div id="navid">
+            <p class="navbar">To-Do-List</p>
+            <span>
+                <img class="logoimg" src="./asset/todo.png">
+            </span>
+            
+        </div>
+        <div class="navid" id="navid2" >
+            <a class="active" href="#home">Home</a>
+            <a class="active" href="./about.html">About</a>
+            <a class="active" href="">Useraname</a>
+            <a class="active" href="./index.html">Logout</a>
+          </div>
+    </nav>
     <br>
     <br>
     <main>
     <section>
-        <div>
-            <input type="text" value="New Task" style="background-color: darkcyan;">
-            <input type="search">
-            <input type="button" value="Add task">
+        <div class="m1">
+            <p class="search2">New Task</p> 
+            <input class="search1" type="search">
+            <input class="btn1" type="button" value="Add task">
         </div>
     </section>
     <section>
-        <div>
-            <form >
+            <div>
+                <div class="menu1">
                 <input type="checkbox" >
                 <label> All</label><br>
+               </div>
+               <div class="menu1">
                 <input type="checkbox"  >
                 <label for="vehicle2">Complete</label><br>
+               </div>
+               <div class="menu1">
                 <input type="checkbox">
                 <label for="vehicle3">active</label><br><br>
-              </form>
-            
-        </div>
+               </div>
+            </div>  
     </section>
     <section>
-        <form>
-            <table border="1px">
+        <div class="table11" >
+              <table style="border: 1px solid;">
                 <tr>
                   <th>stutas</th>
                   <th>Tasks</th>
@@ -66,20 +74,19 @@
                     <td><input type="checkbox"  ></td>
                     <td>Run</td>
                   </tr>
-              </table>
-          </form>
-   
+              </table> 
+           </div>
     </section>
     <br>
-    <section>
-        <article>
-            <h2>Article</h2>
-            <p>Google Chrome is a web browser developed by Google,  Chrome is the world's most popular web browser today!</p>
-        </article>
-    </section>
+   </div>
     </main>
+    <div class="footer-section">
+        <span>
+            <img class="logoimg" src="./asset/todo.png">
+        </span>
     <footer>
-        <p>&copy; follow us on twitter ,facebook</p>
+        <p>&copy;Copyright Agency and contributors 2023.</p>
     </footer>
+   </div>
 </body>
 </html>
