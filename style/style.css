@@ -1,7 +1,8 @@
 .navbar{
     background: #4cb8bc;
-    margin-left: 45%;
+    /* margin-left: 45%; */
     font-size: 30px;
+    padding-left: 45%;
 }
 #navid{
     position: relative;
@@ -83,7 +84,7 @@ th ,td{
     width: 20%;
 }
 #m1{
-    padding: 100px;
+    padding: 82px;
     padding-left: 278px;
 }
 .about-txt{
@@ -93,7 +94,7 @@ th ,td{
    
     margin-left: 216px;
     margin-right: 216px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .c{
     margin-left: 197px;
